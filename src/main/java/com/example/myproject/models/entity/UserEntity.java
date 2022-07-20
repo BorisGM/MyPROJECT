@@ -6,6 +6,7 @@ import java.util.Set;
 @Entity
 @Table(name = "users")
 public class UserEntity extends BaseEntity {
+    //
     @Column(length = 30, nullable = false, unique = true)
     private String userName;
     @Column(nullable = false, unique = true)

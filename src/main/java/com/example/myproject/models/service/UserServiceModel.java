@@ -1,6 +1,7 @@
 package com.example.myproject.models.service;
 
 public class UserServiceModel {
+    //
 
     private Long id;
     private String firstName;

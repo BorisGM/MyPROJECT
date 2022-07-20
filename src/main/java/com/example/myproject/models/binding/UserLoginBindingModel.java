@@ -3,7 +3,7 @@ package com.example.myproject.models.binding;
 import javax.validation.constraints.Size;
 
 public class UserLoginBindingModel {
-
+//
     @Size(min = 5, max = 20)
     private String username;
 

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class GalleryController {
 
 
-
+//
     @GetMapping(value = "/gallery")
     public String getGallery() {
 

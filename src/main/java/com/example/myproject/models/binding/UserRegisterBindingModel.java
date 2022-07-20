@@ -4,7 +4,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.Size;
 
 public class UserRegisterBindingModel {
-
+//
     @Size(min = 5, max = 20)
     private String name;
 
